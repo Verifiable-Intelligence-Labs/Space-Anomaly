@@ -138,5 +138,5 @@ def plot_images(row, index):
     
 
 # Plot images for the first 5 galaxies
-for i in range(min(5, len(data))):
+for i in range(len(data)):
     plot_images(data.iloc[i], index=i)
